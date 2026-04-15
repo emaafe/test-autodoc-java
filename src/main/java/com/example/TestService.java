@@ -19,7 +19,7 @@ public int doubleValue(int a) {
  * @return resultado de la suma
  */
 public int sum(int a) {
-    return a * 2;
+    return a + 2;
 }
 }
 
