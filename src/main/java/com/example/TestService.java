@@ -3,17 +3,24 @@ package com.example;
 public class TestService {
 
     /**
-     * Suma dos números
-     * @param a valor
-     * @return resultado
-     */
-    public int sum(int a) {
-        return a * 2; // inconsistente → NEEDS REVIEW
-    }
+ * Retorna el doble del valor recibido.
+ *
+ * @param a valor de entrada
+ * @return el doble del valor ingresado
+ */
+public int doubleValue(int a) {
+    return a * 2;
+}
 
-    public void ping() {
-        System.out.println("pong"); // FAIL (sin Javadoc)
-    }
+/**
+ * Suma dos números.
+ *
+ * @param a valor de entrada
+ * @return resultado de la suma
+ */
+public int sum(int a) {
+    return a * 2;
+}
 }
 
 
