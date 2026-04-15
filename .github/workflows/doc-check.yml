@@ -1,0 +1,10 @@
+name: AutoDoc Documentation
+
+on:
+  pull_request:
+
+jobs:
+  autodoc:
+    uses: emaafe/autodoc/.github/workflows/autodoc.yml@main
+    secrets:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
