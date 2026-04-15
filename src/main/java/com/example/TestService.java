@@ -18,8 +18,8 @@ public int doubleValue(int a) {
  * @param a valor de entrada
  * @return resultado de la suma
  */
-public int sum(int a) {
-    return a + 2;
+public int sum(int a, int b) {
+    return a + b;
 }
 }
 
